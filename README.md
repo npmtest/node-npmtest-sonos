@@ -1,6 +1,6 @@
 # npmtest-sonos
 
-#### basic test coverage for  sonos (v0.14.1)  [![npm package](https://img.shields.io/npm/v/npmtest-sonos.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-sonos) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-sonos.svg)](https://travis-ci.org/npmtest/node-npmtest-sonos)
+#### basic test coverage for  [sonos (v0.14.1)](https://github.com/bencevans/node-sonos#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-sonos.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-sonos) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-sonos.svg)](https://travis-ci.org/npmtest/node-npmtest-sonos)
 
 #### Node.js Sonos Interface
 
@@ -35,28 +35,13 @@
 ```json
 
 {
-    "name": "sonos",
-    "version": "0.14.1",
-    "description": "Node.js Sonos Interface",
-    "main": "index.js",
-    "scripts": {
-        "lint": "standard",
-        "test": "mocha test/sonos.test.js",
-        "test-onsite": "mocha test/",
-        "env-run": "npm run $CMD"
+    "author": {
+        "name": "Ben Evans",
+        "url": "http://bensbit.co.uk"
     },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/bencevans/node-sonos.git"
+    "bugs": {
+        "url": "http://github.com/bencevans/node-sonos/issues"
     },
-    "keywords": [
-        "sonos",
-        "music",
-        "control",
-        "play",
-        "interface"
-    ],
-    "author": "Ben Evans <ben@bensbit.co.uk> (http://bensbit.co.uk)",
     "contributors": [
         {
             "name": "Marshall Rose"
@@ -65,7 +50,6 @@
             "name": "Stephen Wan"
         }
     ],
-    "license": "MIT",
     "dependencies": {
         "debug": "^2.3.3",
         "ip": "1.1.4",
@@ -74,13 +58,52 @@
         "upnp-client": "0.0.1",
         "xml2js": "0.4.17"
     },
-    "bugs": {
-        "url": "http://github.com/bencevans/node-sonos/issues"
-    },
+    "description": "Node.js Sonos Interface",
     "devDependencies": {
         "mocha": "^3.2.0",
         "standard": "*"
-    }
+    },
+    "directories": {},
+    "dist": {
+        "shasum": "598304da11f723a8d9f2eaa5d20ae0781cdf0813",
+        "tarball": "https://registry.npmjs.org/sonos/-/sonos-0.14.1.tgz"
+    },
+    "gitHead": "a321a3834909b856c315a2edfbf8af59e3b28673",
+    "homepage": "https://github.com/bencevans/node-sonos#readme",
+    "keywords": [
+        "sonos",
+        "music",
+        "control",
+        "play",
+        "interface"
+    ],
+    "license": "MIT",
+    "main": "index.js",
+    "maintainers": [
+        {
+            "name": "bencevans"
+        },
+        {
+            "name": "swan"
+        },
+        {
+            "name": "mrose17"
+        }
+    ],
+    "name": "sonos",
+    "optionalDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bencevans/node-sonos.git"
+    },
+    "scripts": {
+        "env-run": "npm run $CMD",
+        "lint": "standard",
+        "test": "mocha test/sonos.test.js",
+        "test-onsite": "mocha test/"
+    },
+    "version": "0.14.1",
+    "bin": {}
 }
 ```
 
